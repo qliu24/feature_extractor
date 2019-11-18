@@ -7,7 +7,7 @@ files = []
 
 # question 1 to 100
 for ii in range(1,101):
-    files_ii=glob.glob(os.path.join(file_path, 'Analogy_Challenges', 'Separate', '{}_*'.format(ii))
+    files_ii=glob.glob(os.path.join(file_path, 'Analogy_Challenges', 'Separate', '{}_*'.format(ii)))
     files_ii.sort()
     files += files_ii
     
