@@ -125,7 +125,7 @@ def main():
     cudnn.benchmark = True
 
     # load data
-    immean = [0.449, 0.449, 0.449]  # mean of RGB channel mean for imagenet
+    immean = [0.449, 0.449, 0.449]  # for line drawings, mean of RGB channel mean for imagenet
     imstd = [0.226, 0.226, 0.226]
 
     transformations = transforms.Compose([transforms.ToPILImage(),
